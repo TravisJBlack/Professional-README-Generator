@@ -55,7 +55,7 @@ const questions = [
 
 //function that writes the data to a file 
 function writeToFile(fileName, data) {
-     fs.writeFileSync(fileName, data, (err) => {
+     fs.writeFile(fileName, data, (err) => {
         err ? console.error(err) : console.log('README created!!!')
      });
 }
