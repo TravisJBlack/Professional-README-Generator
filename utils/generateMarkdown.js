@@ -13,7 +13,7 @@ function renderLicenseBadge(license) {
       case 'BSD 3':
       return `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
       break;
-      deafult:
+      default:
       return ``;
   }
 }
@@ -33,7 +33,7 @@ function renderLicenseLink(license) {
       case 'BSD 3':
       return `<a href = "https://choosealicense.com/licenses/bsd-3-clause/">BSD 3</a>`;
       break;
-      deafult:
+      default:
       return ``;
   }
 }
